@@ -1,0 +1,29 @@
+{
+  "name": "superfly-css-component-button",
+  "version": "0.0.1",
+  "description": "CSS Button Component.",
+  "main": "src/main/css/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superfly-css/superfly-css-button-component.git"
+  },
+  "keywords": [
+    "css",
+    "superfly-css",
+    "button",
+    "style"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superfly-css/superfly-css-component-button/issues"
+  },
+  "homepage": "https://github.com/superfly-css/superfly-css-component-button#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "superfly-css-task-build": "^0.1.0"
+  }
+}
