@@ -1,8 +1,11 @@
 MIT License
 
 Copyright (c) Firefly Semantics Corporation
+
 Copyright (c) superfly-css
+
 Copyright (c) Ole Ersoy
+
 Copyright (c) Nicolas Gallagher
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
