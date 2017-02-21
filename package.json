@@ -1,6 +1,6 @@
 {
   "name": "superfly-css-component-button",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CSS Button Component.",
   "main": "src/main/css/index.css",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/superfly-css/superfly-css-button-component.git"
+    "url": "git+https://github.com/superfly-css/superfly-css-component-button.git"
   },
   "keywords": [
     "css",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/superfly-css/superfly-css-component-button#readme",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "superfly-css-task-build": "^0.1.0"
+    "gulp": "^3.9.1",
+    "superfly-css-task-build": "^0.1.6"
   }
 }
