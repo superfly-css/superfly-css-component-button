@@ -1,10 +1,10 @@
 MIT License
 
-Copyright (c) Firefly Semantics Corporation
+Copyright (c) 2017 Firefly Semantics Corporation
 
-Copyright (c) superfly-css
+Copyright (c) 2017 superfly-css
 
-Copyright (c) Ole Ersoy
+Copyright (c) 2017 Ole Ersoy
 
 Copyright (c) Nicolas Gallagher
 
