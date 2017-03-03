@@ -24,6 +24,10 @@
   "homepage": "https://github.com/superfly-css/superfly-css-component-button#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "superfly-css-task-build": "^0.1.6"
+    "superfly-css-task-build": "^0.1.8",
+    "superfly-css-component-site": "0.0.2",
+    "superfly-css-utilities-colors": "^0.1.0",
+    "superfly-css-utilities-fonts": "0.0.6",
+    "superfly-css-utilities-layout": "0.0.1"
   }
 }
