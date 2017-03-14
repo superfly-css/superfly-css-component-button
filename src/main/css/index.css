@@ -25,6 +25,9 @@
  */
 
 .Button {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: baseline;
   background: transparent;
   border-color: var(--Button-border-color);
   border-style: solid;
@@ -39,12 +42,12 @@
   text-align: center;
   text-decoration: none;
   user-select: none; /* 4 */
+  cursor: pointer;
 }
 
 /**
  * Remove excess padding and border in Firefox 4+
  */
-
 .Button::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -73,5 +76,6 @@
 .Button:disabled,
 .Button.onDisabled {
   cursor: default;
+  pointer-events: none;
   opacity: var(--Button_onDisabled-opacity);
 }
