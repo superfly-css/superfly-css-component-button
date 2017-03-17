@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Button Component Tests</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Button Component Tests">
+  <meta name="author" content="Ole Ersoy">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../../../target/test/css/index.css">
+
+  <style>
+.u-text-shadow-m1o5 {
+  text-shadow: 1px -2px 5px rgba(22, 22, 22, .5);
+}
+
+.u-on-hover:hover {
+  background-image: linear-gradient(black 0%, tomato 300%);;
+}
+
+.u-on-active:active {
+  background-image: linear-gradient(tomato 0%, black 200%);;
+}
+
+  </style>
+</head>
+
+<body class="Site">
+
+  <header class="Site_header
+                 u-font-montserrat">
+
+       <span class="u-icon-box-on-box
+                    u-icon-3x
+                    u-margin-left-2x"></span>
+
+       <span class="u-font-weight-700
+                    u-margin-right-2x
+                    u-margin-left-2x">Superfly CSS Component Button Tests</span>
+       <i class="fa
+                 fa-chevron-right
+                 u-font-size-1x
+                 u-margin-right-2x"></i>
+  </header>
+
+  <main class="u-text-color-silver-grey
+               u-flex
+               u-flex-column
+               u-flex-align-items-center
+               u-text-shadow-blur-20x
+               u-margin-top-10x">
+        <div class="u-flex
+                    u-flex-column
+                    u-flex-align-items-center
+                    u-font-size-5x
+                    u-font-weight-900
+                    u-uppercase
+                    u-font-montserrat">
+         <div class="u-text-color-neon-mustard
+                     u-font-thickness-4x">Superfly</div>
+         <div class="u-text-color-777">buttons that</div>
+         <div class="u-text-color-777">go BAM
+              <span class="u-text-color-tomato
+                           u-padding-left-1x">!</span>
+         </div>
+         </div>
+
+         <div class="u-flex
+                    u-padding-top-2x
+                    u-margin-bottom-6x">
+              <a class="Button
+                        u-on-active
+                        u-on-hover
+                        u-text-color-555
+                        u-text-shadow-m1o5
+                        u-font-weight-500
+                        u-font-size-900
+                        u-font-open-sans
+                        u-border-color-999"
+                        style="border-radius: 22px;">
+                  Bam <span class="u-text-color-tomato u-font-weight-900 u-font-thickness-2x">!</span>
+              </a>
+          </div>
+
+    <div class="Test">
+
+        <span class="Test_counter"></span>
+        <span class="Test_component">Button</span>
+
+        <div class="Test_container">
+        <div class="Test_input">
+            <div class="Test_when"></div>
+            <div class="Test_description">Buttons are marked up inline.</div>
+            <pre class="Test_markup">
+              <code class="html">
+<a class="Button
+          u-on-hover-background-color-555
+          u-margin-top-1x
+          u-text-color-white
+          u-font-open-sans
+          u-background-color-444
+          u-border-color-222
+          u-on-active-invert-100
+          u-font-weight-300
+          u-font-size-500">booyakasha
+</a>
+
+<a class="Button
+          u-on-hover-background-color-555
+          u-margin-top-1x
+          u-text-color-white
+          u-font-open-sans
+          u-background-color-444
+          u-border-color-222
+          u-on-active-invert-100
+          u-font-weight-300
+          u-font-size-500">booyakasha
+</a>
+              </code>
+            </pre>
+        </div>
+        <div class="Test_output">
+            <div class="Test_then"></div>
+            <div class="Test_description">They render inline.</div>
+        </div>
+      </div>
+
+<!-- End of Test div-->
+    </div>
+
+    <div class="Test">
+
+        <span class="Test_counter"></span>
+        <span class="Test_component">Button</span>
+
+        <div class="Test_container">
+        <div class="Test_input">
+            <div class="Test_when"></div>
+            <div class="Test_description">The button is disabled.</div>
+            <pre class="Test_markup">
+              <code class="html">
+<a class="Button
+          onDisabled
+          u-on-hover-background-color-555
+          u-margin-top-1x
+          u-text-color-white
+          u-font-open-sans
+          u-background-color-444
+          u-border-color-222
+          u-on-active-invert-100
+          u-font-weight-300
+          u-font-size-500">booyakasha
+</a>
+              </code>
+            </pre>
+        </div>
+        <div class="Test_output">
+            <div class="Test_then"></div>
+            <div class="Test_description">Then it renders with reduced opacity and does not respond to pointer events.</div>
+        </div>
+      </div>
+
+<!-- End of Test div-->
+    </div>
+
+    <div class="Test">
+
+        <span class="Test_counter"></span>
+        <span class="Test_component">Button</span>
+
+        <div class="Test_container">
+        <div class="Test_input">
+            <div class="Test_when"></div>
+            <div class="Test_description">Text color is not specified.</div>
+            <pre class="Test_markup">
+              <code class="html">
+<button class="Button
+          u-margin-top-1x
+          u-font-open-sans
+          u-background-color-222
+          u-border-color-444
+          u-on-active-invert-100
+          u-font-weight-300
+          u-font-size-500">booyakasha
+</button>
+              </code>
+            </pre>
+        </div>
+        <div class="Test_output u-text-color-tomato">
+            <div class="Test_then"></div>
+            <div class="Test_description">Then text color is inherited.</div>
+        </div>
+      </div>
+
+<!-- End of Test div-->
+    </div>
+
+
+    <div class="Test">
+
+        <span class="Test_counter"></span>
+        <span class="Test_component">Button</span>
+
+        <div class="Test_container">
+        <div class="Test_input">
+            <div class="Test_when"></div>
+            <div class="Test_description">Font is not specified.</div>
+            <pre class="Test_markup">
+              <code class="html">
+<button class="Button
+          u-margin-top-1x
+          u-background-color-222
+          u-border-color-444
+          u-on-active-invert-100
+          u-font-weight-300
+          u-font-size-500">booyakasha
+</button>
+              </code>
+            </pre>
+        </div>
+        <div class="Test_output u-text-color-tomato u-font-baloo-bhaina">
+            <div class="Test_then"></div>
+            <div class="Test_description">The font is inherited.</div>
+        </div>
+      </div>
+
+<!-- End of Test div-->
+    </div>
+
+    <div class="Test">
+
+        <span class="Test_counter"></span>
+        <span class="Test_component">Button</span>
+
+        <div class="Test_container">
+        <div class="Test_input">
+            <div class="Test_when"></div>
+            <div class="Test_description">Text color is not specified.</div>
+            <pre class="Test_markup">
+              <code class="html">
+<button class="Button
+          u-margin-top-1x
+          u-background-color-222
+          u-border-color-444
+          u-on-active-invert-100
+          u-font-weight-300
+          u-font-size-500">booyakasha
+</button>
+              </code>
+            </pre>
+        </div>
+        <div class="Test_output u-text-color-neon-mustard">
+            <div class="Test_then"></div>
+            <div class="Test_description">Then text color is inherited.</div>
+        </div>
+      </div>
+
+<!-- End of Test div-->
+    </div>
+
+    <div class="Test">
+
+        <span class="Test_counter"></span>
+        <span class="Test_component">Button</span>
+
+        <div class="Test_container">
+        <div class="Test_input">
+            <div class="Test_when"></div>
+            <div class="Test_description">The button is not wide enough.</div>
+            <pre class="Test_markup">
+              <code class="html">
+<button class="Button
+          u-margin-top-1x
+          u-width-8x
+          u-background-color-222
+          u-border-color-444
+          u-on-active-invert-100
+          u-font-weight-300
+          u-font-size-500">Moshi Moshi
+</button>
+              </code>
+            </pre>
+        </div>
+        <div class="Test_output u-text-color-neon-mustard">
+            <div class="Test_then"></div>
+            <div class="Test_description">Then the label wraps.</div>
+        </div>
+      </div>
+
+<!-- End of Test div-->
+    </div>
+
+    <div class="Test">
+
+        <span class="Test_counter"></span>
+        <span class="Test_component">Button</span>
+
+        <div class="Test_container">
+        <div class="Test_input">
+            <div class="Test_when"></div>
+            <div class="Test_description">Buttons with different heights are inlined.</div>
+            <pre class="Test_markup">
+              <code class="html">
+<button class="Button
+          u-margin-top-1x
+          u-width-8x
+          u-background-color-222
+          u-border-color-444
+          u-on-active-invert-100
+          u-font-weight-300
+          u-font-size-500">Moshi Moshi
+</button>
+
+<button class="Button
+          u-margin-top-1x
+          u-width-8x
+          u-background-color-222
+          u-border-color-444
+          u-on-active-invert-100
+          u-font-weight-300
+          u-font-size-500">Moshi
+</button>
+
+              </code>
+            </pre>
+        </div>
+        <div class="Test_output u-text-color-neon-mustard">
+            <div class="Test_then"></div>
+            <div class="Test_description">The tops align.</div>
+        </div>
+      </div>
+
+<!-- End of Test div-->
+    </div>
+
+  </main>
+</body>
+
+</html>
