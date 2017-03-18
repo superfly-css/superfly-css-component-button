@@ -1,6 +1,6 @@
 {
   "name": "superfly-css-component-button",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "description": "CSS Button Component.",
   "main": "src/main/css/index.css",
   "scripts": {
@@ -30,7 +30,7 @@
     "superfly-css-component-site": "0.0.3",
     "superfly-css-component-test": "0.0.12",
     "superfly-css-foundation": "0.0.8",
-    "superfly-css-task-build": "^0.1.10",
+    "superfly-css-task-build": "^0.2.0",
     "superfly-css-task-clean": "0.0.1",
     "superfly-css-task-test": "^0.3.0",
     "superfly-css-utilities-colors": "^0.1.10",
