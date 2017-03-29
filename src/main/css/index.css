@@ -2,7 +2,7 @@
 /*! superfly-css-component-button | MIT License | https://github.com/superfly-css/superfly-css-component-button/blob/master/LICENSE.md */
 
 :root {
-  --Button-border-color: currentcolor;
+  --Button-border-color: transparent;
   --Button-border-width: 1px;
   --Button-text-color: inherit;
   --Button-font: inherit;
@@ -17,6 +17,7 @@
  */
 
 /**
+ * 0. No outline by default in order to provide full control over styling.
  * 1. Normalize `box-sizing` across all elements that this component could be
  *    applied to.
  * 2. Inherit text color from ancestor.
@@ -27,8 +28,9 @@
 
 .Button {
   display: inline-flex;
+  outline: none;
   justify-content: space-around;
-  align-items: baseline;
+  align-items: center;
   background: transparent;
   border-color: var(--Button-border-color);
   border-style: solid;
