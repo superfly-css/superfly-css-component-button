@@ -1,6 +1,6 @@
 {
   "name": "superfly-css-component-button",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "description": "CSS Button Component.",
   "main": "src/main/css/index.css",
   "scripts": {
@@ -31,14 +31,14 @@
     "superfly-css-component-test": "0.0.12",
     "superfly-css-foundation": "0.0.8",
     "superfly-css-pli": "0.0.9",
-    "superfly-css-task-build": "^0.3.0",
+    "superfly-css-task-build": "^0.3.2",
     "superfly-css-task-clean": "0.0.1",
-    "superfly-css-task-deploy": "0.0.1",
+    "superfly-css-task-deploy": "0.0.10",
     "superfly-css-task-test": "^0.3.0",
-    "superfly-css-utilities-colors": "^0.1.12",
-    "superfly-css-utilities-effects": "0.0.4",
-    "superfly-css-utilities-fonts": "0.0.13",
+    "superfly-css-utilities-colors": "^0.1.16",
+    "superfly-css-utilities-effects": "0.0.14",
+    "superfly-css-utilities-fonts": "0.0.19",
     "superfly-css-utilities-icons": "0.0.2",
-    "superfly-css-utilities-layout": "0.1.5"
+    "superfly-css-utilities-layout": "0.1.8"
   }
 }

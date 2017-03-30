@@ -9,4 +9,7 @@ deploy:
   on:
     branch: master
 before_deploy:
+  - npm run deploy:test:css
+  - npm run deploy:test:html
   - sed -i '/target/d' .gitignore
+  - sed -i '/deploy/d' .gitignore

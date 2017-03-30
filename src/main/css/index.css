@@ -24,6 +24,8 @@
  * 3. Inherit font styles from ancestor.
  * 4. Prevent button text from being selectable.
  * 5. Turn off pointer events when button is disabled.
+ * 6. Border style set to solid to prevent the it from
+ *    being set to inset in chrome when active.
  */
 
 .Button {
@@ -56,23 +58,14 @@
 }
 
 /**
- * Work around a Firefox/IE bug where the transparent `button` background
- * results in a loss of the default `button` focus styles.
- */
-
-.Button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-}
-
-/**
  * UI states
  */
-
 .Button:hover,
 .Button:focus,
 .Button:active {
   text-decoration: none;
+  outline: none;
+  border-style: solid;
 }
 
 .Button:disabled,

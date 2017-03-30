@@ -1,12 +1,40 @@
 @import "../../main/css/index.css";
-@import "superfly-css-utilities-icons";
 @import "superfly-css-utilities-fonts";
+@import "superfly-css-utilities-icons";
 @import "superfly-css-utilities-layout";
 @import "superfly-css-component-site";
 @import "superfly-css-component-test";
 @import "superfly-css-foundation";
 @import "superfly-css-utilities-effects";
 @import "superfly-css-utilities-colors";
+
+.Button--bam {
+  background: lighten(var(--color-tomato-red), 3%);
+  border: 1px solid darken(var(--color-tomato-red), 4%);
+  box-shadow: 0px 2px 0 darken(black, 15%), 11px 11px 0px darken(white, 74%);
+  font-weight: 900;
+  transition: all 200ms linear;
+}
+
+.Button--bam:hover {
+  background: darken(var(--color-tomato-red), 3%);
+  border: 1px solid rgba(#000, .05);
+  box-shadow: 1px 1px 2px rgba(#fff, .3);
+  color: lighten(var(--color-tomato-red), 18%);
+  text-shadow: -1px -1px 0 darken(var(--color-tomato-red), 9.5%);
+  text-decoration: none;
+  transition: all 200ms linear;
+}
+
+.Button--bam:active {
+  transition: all 150ms ease;
+}
+
+
+:root {
+  --color-tomato-red: #E1332D;
+  --color-tomato-red-l30: lighten(var(--color-tomato-red), 30%);
+}
 
 body {
   counter-reset: test-counter;
@@ -23,7 +51,6 @@ body {
     @apply(--u-font-size-500);
     @apply(--u-flex);
     @apply(--u-flex-justify-around);
-    @apply(--u-flex-align-items-center);
     @apply(--u-flex-align-items-center);
     @apply(--u-text-color-888);
 }
@@ -79,10 +106,5 @@ body {
 .Button--wut:active, .Button--wut:focus, .Button--wut:hover {
     background-color: #e0811b;
     background-image: linear-gradient(white 10%, tomato 200%);
-    color: grey;
-}
-
-.Button:active, .Button:focus, .Button:hover {
-    background-color: #555;
     color: grey;
 }
