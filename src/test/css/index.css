@@ -41,12 +41,10 @@ body {
 }
 
 .Site {
-  @apply(--Site);
   @apply(--u-background-color-soft-white);
 }
 
 .Site_header {
-    @apply(--Site_header);
     @apply(--u-font-weight-200);
     @apply(--u-font-size-500);
     @apply(--u-flex);
@@ -56,18 +54,15 @@ body {
 }
 
 .Test {
-  @apply(--Test);
   @apply(--u-background-color-444);
 }
 
 
 .Test_when {
-  @apply(--Test_when);
   @apply(--u-text-color-444);
 }
 
 .Test_then {
-  @apply(--Test_when);
   @apply(--u-text-color-444);
 }
 
@@ -80,12 +75,12 @@ body {
 }
 
 .Test_container {
-    @apply(--Test_container);
     @apply(--u-background-color-silver-grey);
+    @apply(--u-padding-bottom-2x);
+    @apply(--u-padding-left-2x);
 }
 
 .Test_counter {
-  @apply(--Test_counter);
   @apply(--u-text-color-tomato);
 }
 
