@@ -37,8 +37,8 @@
     "superfly-css-task-test": "^0.3.0",
     "superfly-css-utilities-colors": "^0.1.16",
     "superfly-css-utilities-effects": "0.0.14",
-    "superfly-css-utilities-fonts": "0.0.19",
+    "superfly-css-utilities-fonts": "0.0.21",
     "superfly-css-utilities-icons": "0.0.2",
-    "superfly-css-utilities-layout": "0.3.1"
+    "superfly-css-utilities-layout": "0.3.2"
   }
 }
