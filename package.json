@@ -1,0 +1,44 @@
+{
+  "name": "superfly-css-component-button",
+  "version": "0.0.14",
+  "description": "CSS Button Component.",
+  "main": "src/main/css/index.css",
+  "scripts": {
+    "update": "ncu -a && npm i",
+    "clean": "gulp clean",
+    "build": "npm run clean && gulp build:css",
+    "test": "npm run build && gulp test:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superfly-css/superfly-css-component-button.git"
+  },
+  "keywords": [
+    "css",
+    "superfly-css",
+    "button",
+    "style"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superfly-css/superfly-css-component-button/issues"
+  },
+  "homepage": "https://github.com/superfly-css/superfly-css-component-button#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "superfly-css-component-site": "0.1.0",
+    "superfly-css-component-test": "0.1.2",
+    "superfly-css-foundation": "0.0.8",
+    "superfly-css-pli": "0.0.9",
+    "superfly-css-task-build": "^0.3.2",
+    "superfly-css-task-clean": "0.0.1",
+    "superfly-css-task-deploy": "0.0.10",
+    "superfly-css-task-test": "^0.3.0",
+    "superfly-css-utilities-colors": "^0.1.16",
+    "superfly-css-utilities-effects": "0.0.14",
+    "superfly-css-utilities-fonts": "0.0.21",
+    "superfly-css-utilities-icons": "0.0.2",
+    "superfly-css-utilities-layout": "0.3.2"
+  }
+}
